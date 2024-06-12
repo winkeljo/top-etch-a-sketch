@@ -1,5 +1,12 @@
+body {
+    margin: 0px;
+    padding: 0px;;
+}
+
 .container {
     display: flex;
+    margin: 0px;
+    padding: 0px;
 }
 
 .column {
@@ -10,5 +17,6 @@
 
 .item {
     aspect-ratio: 1 / 1;
-    background-color: aquamarine;
+    background-color: white;
+    border: 1px solid black;
 }
