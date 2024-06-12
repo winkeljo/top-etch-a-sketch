@@ -19,6 +19,13 @@ function createSquares(squaresPerLine) {
         for (let j = 0; j < squaresPerLine; j++) {
             const div = document.createElement("div");
             div.classList.toggle("item");
+            div.addEventListener("mouseover", (event) => {
+                opacity = Number(event.target.style.opacity) + 0.1;
+                if (opacity < 1) {
+                    event.target.style.opacity = opacity;
+                }
+            })
+
             column.appendChild(div);
             divs.push(div);
         }
