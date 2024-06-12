@@ -1,4 +1,6 @@
 const container = document.querySelector(".container");
+const resetButton = document.querySelector("#reset");
+resetButton.addEventListener("click", startNewGame)
 
 const columns = [];
 const divs = [];

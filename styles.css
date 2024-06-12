@@ -3,6 +3,21 @@ body {
     padding: 0px;;
 }
 
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+#reset {
+    width: 200px;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
 .container {
     display: flex;
     margin: 0px;
